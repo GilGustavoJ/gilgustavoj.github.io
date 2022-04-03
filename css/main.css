@@ -1,0 +1,31 @@
+#header{
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4648aa 0%, #050405 100%);
+}
+
+#header #header-particlesjs{
+    position:  absolute;
+    display:  block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#header .container{
+    z-index: 2;
+} 
+
+#header .imagen-presentacion{
+    border-radius: 5%;
+    height: 250px;
+}
+
+#header #TW-nombre{
+    margin-top: 10px;
+}
+
+#header .TW-nombre-font{
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
