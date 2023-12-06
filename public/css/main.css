@@ -1,0 +1,86 @@
+body{
+  font-family: 'Source Code Pro', sans-serif;
+  background: linear-gradient(to bottom right, #4648aa 0%, #050405 100%);
+  color: #fff;
+}
+
+#particles{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.iam-img{
+  width: 200px;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h5{
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+@media (max-width:1399.98px) {}
+
+@media (max-width:1199.98px) {}
+
+@media (max-width:991.98px) {}
+
+@media (max-width:767.98px) {
+  .iam-img{
+    width: 200px;
+  }
+  
+  .mt-100{
+    margin-top: 100px;
+  }
+  
+  h1{
+    font-size: 3rem;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  h5{
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width:575.98px) {
+  .iam-img{
+    width: 200px;
+  }
+  
+  .mt-100{
+    margin-top: 100px;
+  }
+  
+  h1{
+    font-size: 3rem;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  h5{
+    font-size: 1.5em;
+  }
+}
